@@ -8,7 +8,7 @@
             var prompt = Console.ReadLine();
             Dictionary<int, string> petal = new Dictionary<int, string>();
 
-            for (int i = 0; i < 12; i++)
+            for (int i = 0; i < Int16.Parse(prompt); i++)
             {
                 int even = CheckEven(i);
                 if (even == 0)
